@@ -1,8 +1,7 @@
-// src/types/task.ts
 export type Category = "To Do" | "In Progress" | "Review" | "Completed";
 
 export interface Task {
-  id: string;           
+  id: string;          
   name: string;
   category: Category;
   start: string;        

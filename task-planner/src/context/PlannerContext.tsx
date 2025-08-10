@@ -17,7 +17,7 @@ type Action =
   | { type: "UPDATE_TASK_DATES"; payload: { id: string; start: string; end: string } }
   | { type: "SET_FILTERS"; payload: Partial<Filters> };
 
-
+// 🎯 Reducer Function
 function plannerReducer(state: PlannerState, action: Action): PlannerState {
   switch (action.type) {
     case "ADD_TASK":
