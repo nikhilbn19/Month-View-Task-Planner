@@ -73,13 +73,16 @@ cd task-planner
 ```
 
 Install Dependencies
-npm install
+
+- npm install
 
 Run the App
-npm start
+
+- npm start
 
 Build for Production
-npm run build
+
+- npm run build
 
 Usage
 Add a Task
