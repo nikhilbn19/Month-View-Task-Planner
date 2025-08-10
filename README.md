@@ -85,6 +85,7 @@ Build for Production
 - npm run build
 
 Usage
+
 Add a Task
 
 - Click and drag over consecutive days to select the duration
